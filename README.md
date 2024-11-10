@@ -1,9 +1,13 @@
 If you play Inferno Climber with keyboard controls, there's a bug that makes the game unplayable when you get to areas with ropes. 
+
   This mod fixes that issue.
 
 The problem was that the devs had left a debug key on " D " that breaks every rope in the area you're in, 
+
   so if you play with keyboard and strafe even once you'll destroy all the ropes. 
+  
   This mod simply removes that debug function.
+  
 
 Navigate to Releases on the right sidebar on Github, click the latest release, and download the DLL file and place it in your InfernoClimber\BepInEx\plugins folder. Follow tutorial below if you do not have this.
 
