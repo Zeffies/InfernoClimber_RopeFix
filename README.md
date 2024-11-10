@@ -2,9 +2,11 @@ If you play Inferno Climber with keyboard controls, there's a bug that makes the
 
 This mod fixes that issue.
 
-The problem was that [the devs had left a debug key on " D " that breaks every rope](https://i.imgur.com/plttekX.png) in the area you're in, 
+The problem was that the devs had left a debug key on " D " that breaks every rope in the area you're in, 
 
-so if you play with keyboard and strafe even once you'll destroy all the ropes. 
+so if you play with keyboard and strafe even once you'll destroy all the ropes.
+
+[Here's a screenshot of the code that is the issue](https://i.imgur.com/plttekX.png) and [here's a video demonstration of the ropes being broken when you press D.](https://i.imgur.com/tI2wm5f.mp4)
   
 This mod simply removes that debug function.
   
