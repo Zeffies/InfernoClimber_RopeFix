@@ -35,6 +35,9 @@ public class UltimateRope_Update
     [HarmonyPatch(typeof(UltimateRope), "Update")]
     public static bool FixRopeBug()
     {
+        //this may look weird because of the name of the method and the fact it says "return false", 
+        //but what it's doing is telling Harmony + BepInEx
+        //to skip the UltimateRope.Update function entirely, which is where the problem code is.
         return false;
     }
 }   
